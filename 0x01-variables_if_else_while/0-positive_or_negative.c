@@ -2,9 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 
-
-/* betty style doc for function main goes there */
-
+/**
+ * main - Positive or Negative - print sign of random number
+ * @void: Empty parameter list for main.
+ *
+ * Description: this if/else statement delares the sign (positive
+ * or negative) of a random number. It also states if the value
+ * is zero.
+ *
+ * Return: 0 for success
+*/
 int main(void)
 {
 	int n;
@@ -12,7 +19,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	if (n >0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);	
 	}
