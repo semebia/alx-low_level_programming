@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main- Print base 10 numbers
+ * main - print base 10 numbers
  * @void: empty parameter list for main
  *
  * description: prints numbers 1-9
@@ -12,7 +12,15 @@
  */
 
 
-int main(void) /*main: print base 10 numbers*/
+int main(void)
+
+
+/**
+ * variable n has been declared
+ * coding then assigns the random value.
+ * */
+
+  
 {
 	char num = '0';
 
