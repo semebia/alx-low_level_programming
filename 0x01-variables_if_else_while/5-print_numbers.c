@@ -10,9 +10,10 @@
  */
 
 
-int main(void)
+int main(void) /*main: print base 10 numbers*/
 {
 	char num = '0';
+
 	while (num <= '9')
 	{
 		putchar(num);
