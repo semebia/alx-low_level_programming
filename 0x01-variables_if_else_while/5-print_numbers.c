@@ -18,9 +18,7 @@ int main(void)
 /**
  * variable n has been declared
  * coding then assigns the random value.
- * */
-
-  
+ */ 
 {
 	char num = '0';
 
