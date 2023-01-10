@@ -2,20 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - print all arguemnts
+ * main - print number of arguments entered
  * @argc: number of arguments
  * @argv: arguments entered
- * Description: print all arguments including file name
- * Return: zero
+ * Description: print number of arguments
+ * Return: return zero
  **/
 
 int main(int argc, char *argv[])
 {
-	int i;
+	printf("%d\n", argc - 1);
+	argv = argv;
 
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
 	return (0);
 }
