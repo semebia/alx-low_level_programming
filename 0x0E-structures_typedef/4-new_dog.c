@@ -8,13 +8,13 @@
  * @owner: owner of dog
  * Return: dog object, NULL if fails
  **/
-dog_t *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner);
+
 {
+	int len = 0;
 
+	while (*str++)
+		len++;
+return (len);
 
-	if (hobbes == NULL)
-		return (NULL);
-
-
-	return (hobbes);
 }
