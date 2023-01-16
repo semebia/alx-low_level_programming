@@ -1,6 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
-#include <stdio.h>
+
 /**
  * new_dog - creates dog object
  * @name: dog name
@@ -9,6 +9,8 @@
  * Return: dog object, NULL if fails
  **/
 dog_t *new_dog(char *name, float age, char *owner);
+
+int _strlen(char *str)
 
 {
 	int len = 0;
