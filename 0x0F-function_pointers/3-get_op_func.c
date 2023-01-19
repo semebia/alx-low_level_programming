@@ -1,4 +1,6 @@
-#include "function_pointers.h"
+#include "3-calc.h"
+
+
 
 /**
  * get_op_func - selects and returns correct function
@@ -25,5 +27,5 @@ int (*get_op_func(char *s))(int, int)
 		}
 		i++;
 	}
-	return (NULL)
+	return (NULL);
 }
